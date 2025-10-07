@@ -52,7 +52,7 @@
 <h1 class="text-2xl font-bold text-text-light dark:text-text-dark">CinemaTIX</h1>
 </div>
 <h2 class="text-3xl font-bold text-text-light dark:text-text-dark">Welcome Back</h2>
-<p class="mt-2 text-muted-light dark:text-muted-dark">urusan syabil ni front end.</p>
+<p class="mt-2 text-muted-light dark:text-muted-dark">urusan syabil nih nntu malam.</p>
 </div>
 <form class="space-y-6">
 <div>
