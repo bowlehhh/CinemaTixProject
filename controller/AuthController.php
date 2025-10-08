@@ -1,6 +1,6 @@
 <?php
 class AuthController {
     public function login() {
-        echo "Ini halaman login.";
+        include 'view/auth/login.php';  // Bisa ke folder auth
     }
 }
