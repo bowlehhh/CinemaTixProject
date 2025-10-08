@@ -1,0 +1,46 @@
+<?php
+// index.php — entry point utama
+
+// 1️⃣ Panggil semua controller yang dibutuhkan
+require_once 'controller/TicketController.php';
+require_once 'controller/AuthController.php';
+require_once 'controller/AdminController.php';
+
+
+// 2️⃣ Ambil parameter "page" dari URL (contoh: index.php?page=checkout)
+$page = $_GET['page'] ?? 'home';
+
+// 3️⃣ Tentukan controller mana yang harus dijalankan
+switch ($page) {
+    case 'login':
+        (new AuthController())->login();
+        break;
+
+    case 'checkout':
+        (new TicketController())->checkout();
+        break;
+
+    case 'detail':
+        (new TicketController())->detail();
+        break;
+    
+    case 'admin':
+            (new AdminController())->panel();
+        break;
+
+    case 'kelolafilm':
+        (new AdminController())->kelolaFilm();
+        break;
+
+    case 'kelolatiket':
+        (new AdminController())->kelolaTiket();
+        break;
+
+    default:
+        (new TicketController())->index();
+        break;
+
+    
+}
+ 
+?>
