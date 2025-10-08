@@ -1,14 +1,19 @@
 <?php
+// model/TicketController.php
 class TicketController {
     public function index() {
-        echo "Ini halaman utama tiket.";
+        // Tampilkan halaman utama/list film
+        include 'view/ticket/index.php';
     }
-
-    public function checkout() {
-        echo "Ini halaman checkout tiket.";
-    }
-
+    
     public function detail() {
-        echo "Ini halaman detail tiket.";
+        // Tampilkan detail film
+        include 'view/ticket/detail.php';
+    }
+    
+    public function checkout() {
+        // Proses checkout tiket
+        include 'view/ticket/checkout.php';
     }
 }
+?>
