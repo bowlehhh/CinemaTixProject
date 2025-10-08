@@ -29,11 +29,11 @@ switch ($page) {
         break;
 
     case 'kelolafilm':
-        (new AdminController())->kelolaFilm();
+        (new AdminController())->kelolafilm();
         break;
 
     case 'kelolatiket':
-        (new AdminController())->kelolaTiket();
+        (new AdminController())->kelolatiket();
         break;
 
     case 'panel':

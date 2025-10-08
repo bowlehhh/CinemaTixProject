@@ -1,23 +1,25 @@
 <?php
-// controller/AdminController.php
+// model/AdminController.php
 
 class AdminController
 {
     // Method default: dashboard admin
     public function panel()
     {
-        echo "Ini halaman dashboard admin.";
+        include 'view/admin/panelAdmin.php';
     }
 
     // Menampilkan halaman kelola film
-    public function kelolaFilm()
+    public function kelolafilm()
     {
-        echo "ini anjaiii";
+        include 'view/admin/kelolafilm.php';
     }
-    public function kelolaTiket()
+
+    // Menampilkan halaman kelola tiket
+    public function kelolatiket()
     {
         // nanti bisa ambil data tiket dari database di sini
-        include 'view/admin/kelolaTiket.php';
+        include 'view/admin/kelolatiket.php';
     }
 
     // Menambahkan film baru (contoh sederhana)
@@ -36,3 +38,4 @@ class AdminController
         include 'view/admin/tambahFilm.php';
     }
 }
+?>
