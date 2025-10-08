@@ -51,8 +51,8 @@
 </svg>
 <h1 class="text-2xl font-bold text-text-light dark:text-text-dark">CinemaTIX</h1>
 </div>
-<h2 class="text-3xl font-bold text-text-light dark:text-text-dark">Welcome Back</h2>
-<p class="mt-2 text-muted-light dark:text-muted-dark">urusan syabil nih nntu malam.</p>
+<h2 class="text-3xl font-bold text-text-light dark:text-text-dark">halaman register</h2>
+<p class="mt-2 text-muted-light dark:text-muted-dark">ini halaman register</p>
 </div>
 <form class="space-y-6">
 <div>

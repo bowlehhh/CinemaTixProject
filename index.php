@@ -40,6 +40,10 @@ switch ($page) {
         (new AdminController())->panel();
         break;
 
+    case 'register':
+        (new AuthController())->register();
+        break;
+
     default:
         (new TicketController())->index();
         break;
