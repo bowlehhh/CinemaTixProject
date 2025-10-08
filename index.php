@@ -36,6 +36,10 @@ switch ($page) {
         (new AdminController())->kelolaTiket();
         break;
 
+    case 'panel':
+        (new AdminController())->panel();
+        break;
+
     default:
         (new TicketController())->index();
         break;

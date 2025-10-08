@@ -6,7 +6,7 @@ class AdminController
     // Method default: dashboard admin
     public function panel()
     {
-        include 'view/admin/panel.php';
+        echo "Ini halaman dashboard admin.";
     }
 
     // Menampilkan halaman kelola film
