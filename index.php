@@ -8,10 +8,10 @@ require_once 'controller/AdminController.php';
 
 
 // 2️⃣ Ambil parameter "page" dari URL (contoh: index.php?page=checkout)
-$page = $_GET['page'] ?? 'home';
+$action = $_GET['action'] ?? 'home';
 
 // 3️⃣ Tentukan controller mana yang harus dijalankan
-switch ($page) {
+switch ($action) {
     case 'login':
         (new AuthController())->login();
         break;
